@@ -1,5 +1,5 @@
 #sets are well defined collection of objects which are non repeatable,unordered collection and sets are immutable datatypes
-s={2,3,4,2,4,5,6,7,19}
+# s={2,3,4,2,4,5,6,7,19}
 # print(s)
 # info={"carla",11,8.5,False,12}
 # print(info)
@@ -12,11 +12,11 @@ s={2,3,4,2,4,5,6,7,19}
 # print(s.symmetric_difference(info)) #(aUb)-(aNb)
 # print(s.difference(info)) #elements in original set which are not present in later sets
 # print(s.isdisjoint(info))
-s2={2,3,4}
-if 2 in s2:
-    print("2 is present")
-else:
-    print("2 is absent")
+# s2={2,3,4}
+# if 2 in s2:
+#     print("2 is present")
+# else:
+#     print("2 is absent")
 # print(s.issuperset(s2))
 # print(s2.issubset(s))
 # s2.add(5) #adds single item update adds multiple items
@@ -26,3 +26,7 @@ else:
 # del s2 #deles whole set
 # s2.clear() #clears all elements from the set keeping the structure intact
 # print(s2)
+a={1,3,4,7,8}
+b={2,5,6,9,10}
+print(a.difference(b))
+print(b)
