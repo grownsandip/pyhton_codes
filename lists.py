@@ -10,6 +10,7 @@ else:
     print("no")
     
 print(marks[:])
+print(marks[::])
 print(marks[2:])
 print(marks[1:5])
 print(marks[1:6:2]) #jumping index by 2
